@@ -1,0 +1,46 @@
+.env
+
+# Foundry build artifacts
+out/
+cache/
+forge-artifacts/
+
+# Foundry local setup
+foundry.toml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+
+# Node modules (if using JS/TS)
+node_modules/
+
+# Debug logs
+debug.log
+*.log
+
+# Mac OS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Solidity compiler cache
+.solc/
+
+# Forge tests
+test/__mocks__
+test/__snapshots__
+
+# Optional: If using Hardhat alongside Foundry
+artifacts/
+typechain-types/
+coverage/
